@@ -6,8 +6,8 @@ def summon_captain_planet(planeteers)
   planeteers.collect{ |name| "#{name.capitalize}!" }
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  calls.include?()
 end
 
 def find_the_cheese# code an argument here
