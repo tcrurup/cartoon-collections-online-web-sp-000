@@ -7,7 +7,7 @@ def summon_captain_planet(planeteers)
 end
 
 def long_planeteer_calls(calls)
-   if calls.detect { |calls| calls.length > 4 } ? true : false
+   calls.detect { |calls| calls.length > 4 } ? true : false
 end
 
 def find_the_cheese# code an argument here
